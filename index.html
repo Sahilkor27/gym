@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Web Page</title>
+    <style>
+      /* header styles */
+      header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: black;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+      }
+      header img {
+        height: 75px;
+      }
+      header nav {
+        display: flex;
+      }
+      header nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+      nav a:hover {
+        color: gray;
+      }
+      
+      /* footer styles */
+      footer {
+        position: fixed;
+        left: 0;
+        bottom: ;
+        width: 100%;
+        background-color: black;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      footer p {
+        margin: 0;
+      }
+      footer a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+      h1 {
+        text-align: center;
+        font-size: px;
+        color: red;
+      }
+      p {
+        text-align: center;
+        font-size: px;
+        color: red;
+      }
+      h2 {
+        text-align: center;
+        font-size: px;
+        color: red;
+      }
+      h3 {
+        text-align: center;
+        font-size: px;
+        color: red;
+      }
+      .services {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+      }
+      .services img {
+        height: 75px;
+      }
+      .services h3 {
+        color: orange;
+        text-decoration: underline;
+        margin-right: 20px;
+      }
+      .services p {
+        color: orange;
+        text-decoration: underline;
+        margin-right: 20px;
+      }
+      .pricing {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+      }
+      .pricing img {
+        height: 75px;
+      }
+      .pricing h3 {
+        color: red;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+      .pricing p {
+        color: red;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+      .pricing ul {
+        color: red;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+      .pricing a {
+        color: red;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+      .cta {
+        background-color: black;
+        color: yellow;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      
+      }
+      .cta:hover {
+        background-color: white;
+      }
+      .cta1 {
+        background-color: red;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-style: bold;
+
+      
+      }
+      .cta1:hover {
+        background-color: white;
+      }
+     .hero {
+        
+        background-size: cover;
+        background-position: center;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      .hero h1 {
+        font-size: 50px;
+        margin: 0;
+      }
+      .hero p {
+        font-size: 20px;
+        margin: 0;
+      }
+      .hero a {
+        background-color: red;
+        color: black;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-style: bold;
+      }
+      .hero a:hover {
+        background-color: white;
+      }
+       
+     
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="logo.jpeg" alt="My Logo">
+      <nav>
+        <a href="./home.html">Home</a>
+        <a href="./nutri.html">Nutrition</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./login.html">Login</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>My Gym</h1>
+        <p>Get fit, stay healthy, and have fun at My Gym.</p>
+        <a href="#" class="cta1">Join Now</a>
+      <!-- page content goes here -->
+      </section>
+    <section class="services">
+      <h2>Our Services</h2>
+      <div class="service">
+        <img src="../gy/images/cardio.jpg" width="150px" alt="Cardio">
+        <h3>Cardio</h3>
+        <p>Burn calories and get your heart rate up with our cardio machines.</p>
+      </div>
+      <div class="service">
+        <img src="../gy/images/strength.jpg"  width="150px" alt="Strength Training">
+        <h3>Strength Training</h3>
+        <p>Build muscle and burn fat with our strength training equipment.</p>
+      </div>
+      <div class="service">
+        <img src="../gy/images/yoga.jpg" width="150px
+        " alt="Yoga">
+        <h3>Yoga</h3>
+        <p>Relax and improve your flexibility with our yoga classes.</p>
+      </div>
+    </section>
+    <section class="pricing">
+      <h2>Pricing</h2>
+      <div class="plan">
+        <h3>Basic</h3>
+        <p class="price">999Rs/month</p>
+        <ul>
+          <li>Access to cardio equipment</li>
+          <li>Access to strength training equipment</li>
+          <li>No yoga classes</li>
+        </ul><br><br>
+        <a href="#" class="cta">Join Now</a>
+      </div>
+      <div class="plan">
+        <h3>Pro</h3>
+        <p class="price">1999Rs/month</p>
+        <ul>
+          <li>Access to cardio equipment</li>
+          <li>Access to strength training equipment</li>
+          <li>Access to yoga classes</li>
+        </ul><br>
+        <a href="#" class="cta">Join Now</a>
+      </div>
+      <div class="plan">
+        <h3>Premium</h3>
+        <p class="price">2999Rs/month</p>
+        <ul>
+          <li>Access to cardio equipment</li>
+          <li>Access to strength training equipment</li>
+          <li>Access to yoga classes</li>
+          <li>Personal training sessions</li>
+        </ul>
+        <a href="#" class="cta">Join Now</a>
+      </div>
+    </section>
+
+ </main>
+    <footer>
+      <p>&copy; 2023 My Company</p><br>
+      <a href="#""><br><img src="fb.jpeg" width="35">Facebook</a>
+      <a href="#"><img src="tt.png" width="35">Twitter</a>
+      <a href="#"><img src="ig.jpeg" width="35">Instagram</a>
+    </footer>
+  </body>
+</html>
